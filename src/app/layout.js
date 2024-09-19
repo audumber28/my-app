@@ -1,5 +1,8 @@
+"use class"
 import localFont from "next/font/local";
 import "./globals.css";
+import Nav from "@/components/Navbar";
+import { ThemeProvider } from "next-themes";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -20,10 +23,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+     
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <ThemeProvider enableSystem={true} attribute="class">
+        <Nav/>
         {children}
+        </ThemeProvider>
+       
       </body>
     </html>
   );

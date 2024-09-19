@@ -19,7 +19,7 @@ const Herosection = () => {
 
   
   <div>
- <Image src="/my-app/public/profile.jpeg" alt="hello" width={450} height={450}></Image>
+ <Image src="/profile.jpeg" alt="profile_photo" width={450} height={450}></Image>
   </div>
 
  

@@ -18,33 +18,38 @@ const Nav = () => {
   return (
     <header>
       <div className="flex justify-between items-center shadow-lg p-4">
-        <div className="font-serif text-red-500 pl-2 text-2xl">
-          Audumber Shirodkar
+        <div className="flex gap-3">
+        <div className="hover:zoom-out 2xl font-popins text-2xl ">
+          Audumber 
+        </div>
+        <div className="text-red-700 hover:zoom-out 2xl font-popins text-2xl ">
+          Shirodkar
+        </div>
         </div>
 
-        {/* Menu toggle button for small screens */}
+      
         <div className="md:hidden ml-auto">
           <button onClick={() => setNavbar(!navbar)}>
             {navbar ? <IoMdClose size={20} /> : <IoMdMenu size={20} />}
           </button>
         </div>
 
-        {/* Navigation links */}
+       
         <div className={`flex gap-4 ml-8 pr-2 ${navbar ? 'flex-col' : 'hidden'} md:flex`}>
           <Link
-            className={`block lg:inline ${currentTheme === "dark" ? "text-white" : "text-neutral-900"} hover:text-blue-500 p-2 `}
-            href="/"
+            className={`hover:zoom-out block lg:inline ${currentTheme === "dark" ? "font-popins  hover:text-orange-700" : "font-popins"} hover:text-orange-700 `}
+            href="/contact"
           >
-            Home
+            Contact
           </Link>
           <Link
-            className={`block lg:inline ${currentTheme === "dark" ? "text-white" : "text-neutral-900"} hover:text-blue-500 p-2 `}
+            className={`hover:zoom-out block lg:inline ${currentTheme === "dark" ? "font-popins hover:text-orange-700" : "font-popins"} hover:text-orange-700 `}
             href="/about"
           >
             About
           </Link>
           <Link
-            className={`block lg:inline ${currentTheme === "dark" ? "text-white" : "text-neutral-900"} hover:text-blue-500 p-2 `}
+            className={`hover:zoom-out block lg:inline ${currentTheme === "dark" ? "font-popins  hover:text-orange-700" : "font-popins"} hover:text-orange-700 `}
             href="/projects"
           >
             Projects

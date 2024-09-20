@@ -5,8 +5,18 @@ module.exports = {
   ],
   theme: {
     extend: {
+      inset: {
+        'custom-1': '150px', // Example custom top value
+       
+      },
+      spacing: {
+        'custom-left': '920px',
+        'custom-left2':'60rem', // Add your custom left spacing here
+      },
       fontFamily: {
         playfair: ['"Playfair Display"', 'serif'],
+        lobster: ['Lobster', 'sans-serif'],
+        
       },
       colors: {
         background: "var(--background)",
@@ -16,3 +26,4 @@ module.exports = {
   },
   plugins: [],
 };
+

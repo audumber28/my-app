@@ -19,22 +19,18 @@ const Nav = () => {
     <header>
       <div className="flex justify-between items-center shadow-lg p-4">
         <div className="flex gap-3">
-        <div className="hover:zoom-out 2xl font-popins text-2xl ">
-          Audumber 
+          <div className="hover:zoom-out 2xl font-popins text-2xl ">
+            Audumber 
+          </div>
+          <div className="text-red-700 hover:zoom-out 2xl font-popins text-2xl ">
+            Shirodkar
+          </div>
         </div>
-        <div className="text-red-700 hover:zoom-out 2xl font-popins text-2xl ">
-          Shirodkar
-        </div>
-        </div>
-
-      
         <div className="md:hidden ml-auto">
           <button onClick={() => setNavbar(!navbar)}>
             {navbar ? <IoMdClose size={20} /> : <IoMdMenu size={20} />}
           </button>
         </div>
-
-       
         <div className={`flex gap-4 ml-8 pr-2 ${navbar ? 'flex-col' : 'hidden'} md:flex`}>
           <Link
             className={`hover:zoom-out block lg:inline ${currentTheme === "dark" ? "font-popins  hover:text-orange-700" : "font-popins"} hover:text-orange-700 `}

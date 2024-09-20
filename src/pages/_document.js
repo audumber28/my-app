@@ -1,5 +1,3 @@
-// pages/_document.js
-
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 
 class MyDocument extends Document {
@@ -7,12 +5,10 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-         
           <link
             href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
             rel="stylesheet"
           />
-         ]
         </Head>
         <body>
           <Main />
@@ -24,4 +20,3 @@ class MyDocument extends Document {
 }
 
 export default MyDocument;
-

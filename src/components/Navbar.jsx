@@ -34,19 +34,19 @@ const Nav = () => {
         <div className={`flex gap-4 ml-8 pr-2 ${navbar ? 'flex-col' : 'hidden'} md:flex`}>
           <Link
             className={`hover:zoom-out block lg:inline ${currentTheme === "dark" ? "font-popins  hover:text-orange-700" : "font-popins"} hover:text-orange-700 `}
-            href="/contact"
+            href="/contact" target="_blank" rel="noopener noreferrer"
           >
             Contact
           </Link>
           <Link
             className={`hover:zoom-out block lg:inline ${currentTheme === "dark" ? "font-popins hover:text-orange-700" : "font-popins"} hover:text-orange-700 `}
-            href="/about"
+            href="/about" target="_blank" rel="noopener noreferrer"
           >
             About
           </Link>
           <Link
             className={`hover:zoom-out block lg:inline ${currentTheme === "dark" ? "font-popins  hover:text-orange-700" : "font-popins"} hover:text-orange-700 `}
-            href="/projects"
+            href="/projects" target="_blank" rel="noopener noreferrer"
           >
             Projects
           </Link>

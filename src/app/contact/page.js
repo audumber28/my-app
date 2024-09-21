@@ -26,7 +26,7 @@ const Contact = () => {
 
 {/* Honeypot Spam Protection */}
 <input type="checkbox" name="botcheck" className="hidden" style={{ display: 'none' }} />
- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html" /> 
+ 
 
 <button type="submit">Submit <img src='/arrow.svg'></img></button>
 

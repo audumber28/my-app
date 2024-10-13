@@ -29,6 +29,7 @@ export default function RootLayout({ children }) {
       >
         <ThemeProvider enableSystem={true} attribute="class">
         <Nav/>
+        
         {children}
         </ThemeProvider>
        

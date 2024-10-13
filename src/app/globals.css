@@ -325,11 +325,38 @@
 }
 /* styles.css */
 .glow {
-  filter: drop-shadow(0 0 5px rgba(255, 165, 0, 0.5)) /* Orange glow */;
+  filter: drop-shadow(0 0 5px rgba(255, 165, 0, 0.5)) ;
   transition: filter 0.3s ease-in-out;
 }
 
 .glow:hover {
-  filter: drop-shadow(0 0 10px rgba(255, 165, 0, 0.8)) /* Intense orange glow on hover */;
+  filter: drop-shadow(0 0 10px rgba(255, 165, 0, 0.8)) ;
 }
 
+@keyframes glowing-red {
+  0% {
+    border-color: #b91c1c; 
+    box-shadow: 0 0 5px #b91c1c, 0 0 10px #b91c1c;
+  }
+  50% {
+    border-color: #b91c1c;
+    box-shadow: 0 0 15px #b91c1c, 0 0 30px #b91c1c;
+  }
+  100% {
+    border-color: #b91c1c;
+    box-shadow: 0 0 5px #b91c1c, 0 0 10px #b91c1c;
+  }
+}
+
+
+.glowing-border-hover {
+  width: 250px;
+  height: 250px;
+  border: 5px solid transparent; 
+  border-radius: 10px; 
+  transition: border 0.3s ease-in-out; 
+}
+
+.glowing-border-hover:hover {
+  border-color: #b91c1c;
+  animation: glowing-red 1.5s infinite; }

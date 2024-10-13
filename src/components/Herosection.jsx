@@ -18,11 +18,6 @@ const Herosection = () => {
       <a href="https://www.instagram.com/audumber28?igsh=M3hhcXJ2dHhmNzIz"  target="_blank" rel="noopener noreferrer"><Image className='hover:zoom-out'src="/instagram.svg" alt="instagram" width={30} height={30}></Image></a>
       <a href="https://x.com/audumber19643?t=F8WTNZpRIJyoO2aTDNQmyA&s=09"  target="_blank" rel="noopener noreferrer"> <Image className='hover:zoom-out'src="/twitter.svg" alt="twitter" width={30} height={30}></Image></a>
 
-  
-      
-        
-       
-        
       </div>
     <div className="hover:zoom-out font-popins text-5xl">
      I'm a Full Stack
@@ -65,25 +60,7 @@ Hi, I'm Audumber Shirodkar, a dedicated Full Stack Web Developer currently pursu
 
 <div className='font-playfair text-bold text-xl mx-32 mb-20'>Let’s collaborate and create something amazing together!</div>
 </div>
-<div className='flex gap-2 ml-40 font-popins font-bold mb-10 text-4xl'>
-<div>My</div> <div className='text-red-700'>Toolbox</div>
-</div>
-<div className='ml-40 gap-4 flex'>
-<Image className='glow text-red-700 text-4xl fas fa-star icon-container hover:zoom-out' src="/c only.svg" alt='c-1' width={80} height={80}></Image>
-<Image className='glow text-red-700 text-4xl fas fa-star icon-container hover:zoom-out' src="/c PP.svg" alt='c-1' width={80} height={80}></Image>
-<Image className='glow text-red-700 text-4xl fas fa-star icon-container hover:zoom-out' src="/python.svg" alt='c-1' width={80} height={80}></Image>
-<Image className='glow text-red-700 text-4xl fas fa-star icon-container hover:zoom-out' src="/html.svg" alt='c-1' width={80} height={80}></Image>
-<Image className='glow text-red-700 text-4xl fas fa-star icon-container hover:zoom-out' src="/css-3.svg" alt='c-1' width={80} height={80}></Image>
-<Image className='glow text-red-700 text-4xl fas fa-star icon-container hover:zoom-out' src="/javascript.svg" alt='c-1' width={80} height={80}></Image>
-<Image className='glow text-red-700 text-4xl fas fa-star icon-container hover:zoom-out' src="/nj.svg" alt='c-1' width={80} height={80}></Image>
-<Image className='glow text-red-700 text-4xl fas fa-star icon-container hover:zoom-out' src="/nodejs-icon.svg" alt='c-1' width={80} height={80}></Image>
-<Image className='glow text-red-700 text-4xl fas fa-star icon-container hover:zoom-out' src="/react.svg" alt='c-1' width={80} height={80}></Image>
-<Image className='glow text-red-700 text-4xl fas fa-star icon-container hover:zoom-out' src="/tailwind.svg" alt='c-1' width={80} height={80}></Image>
-<Image className='glow text-red-700 text-4xl fas fa-star icon-container hover:zoom-out' src="/github-icon-2.svg" alt='c-1' width={80} height={80}></Image>
-<Image className='glow text-red-700 text-4xl fas fa-star icon-container hover:zoom-out' src="/git.svg" alt='c-1' width={80} height={80}></Image>
 
-
-</div>
     </section>
   )
 }
